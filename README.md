@@ -1,1 +1,1 @@
-# moninlaw
+# Monitorear recursos esenciales usando psutil almacenarlos en un csv.
