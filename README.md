@@ -43,6 +43,11 @@ cd moninlaw
 pip3 install -r requeriments.txt
 ```
 
+## Ejemplo de visualización
+
+[![N|Data](https://github.com/EduardoCibernetica/moninlaw/blob/master/docs/data.png?raw=true)]()    
+
+
 ## Autores
 
 * **Cruz Eduardo Muñoz Cervantes** - [EduardoCibernetica](https://github.com/EduardoCibernetica)
