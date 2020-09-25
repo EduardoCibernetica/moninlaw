@@ -45,7 +45,7 @@ pip3 install -r requeriments.txt
 
 ## Ejemplo de visualización
 
-[![N|Data](https://github.com/EduardoCibernetica/moninlaw/blob/master/docs/data.png?raw=true)]()    
+[![N|Data](https://github.com/EduardoCibernetica/moninlaw/blob/master/docs/data.png?raw=true)]()
 
 
 ## Autores

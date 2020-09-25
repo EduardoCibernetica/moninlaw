@@ -1,7 +1,8 @@
 import psutil
 import time
 import datetime
-
+from settings.config import TIME_TO_WAIT
+from processes import Processes
 
 class Monitoring:
     def __init__(self):
@@ -45,6 +46,7 @@ class Monitoring:
                     "% CPU en uso"
         f.write('\n' + row_names)
         f.close()
+        pro = Processes()
         while True:
             self.memory_physical()
             self.memory_virtual_swap()
@@ -60,7 +62,8 @@ class Monitoring:
             f.write('\n' + row_data)
             f.close()
             f.close()
-            time.sleep(5)
+            pro.record_processes_list()
+            time.sleep(TIME_TO_WAIT)
 
 
 if __name__ == "__main__":
